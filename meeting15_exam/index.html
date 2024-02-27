@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Burgerdoor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "League Spartan", sans-serif;
+        }
+        body {
+            background-image: url(./assets/cover1.jpg);
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+        }
+        .title {
+            padding: 10px;
+        }
+        .title img{
+            width: 1000px;
+            height: 500px;
+            border: 20px solid ;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .title h1 {
+            padding: 10px;
+            font-size: 50pt;
+            color: rgb(223, 181, 46);
+            text-align: center;
+        }
+        .title h5 {
+            padding: 10px;
+            color: rgb(102, 60, 6);
+            text-align: center;
+        }
+        .title p {
+            padding: 30px;
+            font-size: 30pt;
+            color: rgb(243, 197, 72);
+            text-align: center;
+        }
+        .breakfast {
+            background-color: rgba(220, 220, 220, 0.637);
+            margin: 90px;
+            padding: 10px;
+        }
+        .burger {
+            background-color: rgba(220, 220, 220, 0.637);
+            margin: 90px;
+            padding: 10px;
+        }
+        .coffee {
+            background-color: rgba(220, 220, 220, 0.637);
+            margin: 90px;
+            padding: 10px;
+        }
+        .tea {
+            background-color: rgba(220, 220, 220, 0.637);
+            margin: 90px;
+            padding: 10px;
+        }
+        h3 {
+            font-size: 40pt;
+            /* padding-top: 20px; */
+            text-align: center;
+        }
+        .image-food {
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .food img:hover {
+            opacity: 0.5;
+        }
+        .food h4 {
+            text-align: center;
+            color : rgb(243, 197, 72);
+            font-size: 20px;
+        }
+        .food img {
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+        }
+        table {
+            margin-bottom: 60px;
+        }
+        table, tr, th, td {
+            color: whitesmoke;
+            border: 2px solid rgb(84, 82, 87);
+            background-color: rgba(34, 139, 34, 0.342);
+            text-align: center;
+        }
+        td, th {
+            border-radius: 5px;
+            padding: 25px;
+            font-size: 25px;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="title">
+        <h1>BURGERDOOR CAFE<br> MENU</h1>
+        <h5>Since 1999</h5>
+        <img src="./assets/cover2.jpg">
+        <p><b>Hungry Everyone?<br> Scroll It Now !</b></p>
+    </section>
+    <section class="breakfast">
+        <h3>Breakfast</h3>
+        <div class="image-food">
+            <div class="food">
+                <img src="./assets/breakfast1.jpg">
+                <h4>Fruity Pretty Smoothies</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/breakfast2.jpg">
+                <h4>Longlife Salads</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/breakfast3.jpg">
+                <h4>Full Almond Cookies</h4>
+            </div>
+        </div>
+    </section>
+    <section class="burger">
+        <h3>Burger</h3>
+        <div class="image-food">
+            <div class="food">
+                <img src="./assets/burger1.jpg">
+                <h4>Bikini Bottom Burger Set</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/burger2.jpg">
+                <h4>Tasty Rice Burger</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/burger3.jpg">
+                <h4>Simple Beef Burger</h4>
+            </div>
+        </div>
+    </section>
+    <section class="coffee">
+        <h3>Coffee</h3>
+        <div class="image-food">
+            <div class="food">
+                <img src="./assets/coffee1.jpg">
+                <h4>Cappucino Everyday</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/coffee2.jpg">
+                <h4>Italian Coffee</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/coffee3.jpg">
+                <h4>Chocolate and<br> Marshmallow Coffee</h4>
+            </div>
+        </div>
+    </section>
+    <section class="tea">
+        <h3>Tea</h3>
+        <div class="image-food">
+            <div class="food">
+                <img src="./assets/tea1.jpg">
+                <h4>Classic Italian Tea</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/tea2.jpg">
+                <h4>Rosemary Tea</h4>
+            </div>
+            <div class="food">
+                <img src="./assets/tea3.jpg">
+                <h4>Greentea or Rose Tea</h4>
+            </div>
+        </div>
+    </section>
+    <section class="tabel">
+        <table class="center">
+            <tr>
+                <th>Opening Hours</th>
+                <th>Location</th>
+                <th>Contacts</th>
+            </tr>
+            <tr>
+                <td rowspan="2">9 am untill 10 pm</td>
+                <td rowspan="2">Jalan Bersama No 1, Denpasar</td>
+                <td>Phone: +62878 6233 1621</td>
+            </tr>
+            <tr>
+                <td>Instagram: Burgerdoor</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
